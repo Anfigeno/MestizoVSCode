@@ -1,0 +1,21 @@
+{
+  "name": "mestizo-vscode",
+  "displayName": "MestizoVSCode",
+  "description": "Un tema oscuro para los que no salen de casa",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Mestizo",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Mestizo-color-theme.json"
+      }
+    ]
+  }
+}
