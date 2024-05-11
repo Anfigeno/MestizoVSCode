@@ -158,12 +158,14 @@
       }
     },
     {
-      "name": "Comentarios",
+      "name": "Tope",
       "scope": [
         "comment",
         "markup.quote.markdown",
         "meta.diff",
-        "meta.diff.header"
+        "meta.separator",
+        "meta.diff.header",
+        "punctuation",
       ],
       "settings": {
         "foreground": "#888daa"
@@ -172,7 +174,6 @@
     {
       "name": "Tope",
       "scope": [
-        "meta.template.expression.js",
         "constant.name.attribute.tag.jade",
         "punctuation.definition.metadata.markdown",
         "punctuation.definition.string.end.markdown",
@@ -192,7 +193,7 @@
         "source.css entity.name.tag.reference",
         "beginning.punctuation.definition.list.markdown",
         "source.css entity.other.attribute-name.parent-selector",
-        "meta.structure.dictionary.json support.type.property-name"
+        "meta.structure.dictionary.json support.type.property-name",
       ],
       "settings": {
         "foreground": "#6ae4fc"
@@ -214,6 +215,7 @@
         "support.type.exception.python",
         "source.css keyword.other.unit",
         "variable.other.object.property.js.jsx",
+        "meta.type",
         "variable.other.object.js",
       ],
       "settings": {
@@ -238,7 +240,7 @@
         "source.css entity.other.attribute-name",
         "text.xml punctuation.definition.string",
         "keyword.map",
-        "storage"
+        "variable.other.object",
       ],
       "settings": {
         "foreground": "#ffe780"
@@ -248,8 +250,7 @@
       "name": "Fucsia",
       "scope": [
         "markup.heading",
-        "variable.language.this.js",
-        "variable.language.special.self.python"
+        "variable.language.special.self.python",
       ],
       "settings": {
         "foreground": "#e4adff"
@@ -269,7 +270,8 @@
         "punctuation.section.embedded.begin.php",
         "punctuation.section.embedded.begin.ruby",
         "punctuation.definition.template-expression",
-        "entity.name.tag"
+        "entity.name.tag",
+        "storage"
       ],
       "settings": {
         "foreground": "#e882ff",
@@ -280,7 +282,8 @@
       "name": "Celeste",
       "scope": [
         "string.regexp",
-        "markup.changed"
+        "meta.objectliteral",
+        "markup.changed",
       ],
       "settings": {
         "foreground": "#7cb7ff"
@@ -307,10 +310,12 @@
         "source.php support.function",
         "support.function.magic.python",
         "entity.other.attribute-name.id",
+        "variable.language.this",
         "markup.deleted"
       ],
       "settings": {
-        "foreground": "#f5477e"
+        "foreground": "#ff5263",
+        "fontStyle": "normal"
       }
     },
     {
@@ -331,6 +336,15 @@
       "settings": {
         "foreground": "#8eeda1",
         "fontStyle": "italic"
+      },
+    },
+    {
+      "name": "Rosa",
+      "scope": [
+        "variable.parameter",
+      ],
+      "settings": {
+        "foreground": "#ff7d81"
       }
     },
     {
